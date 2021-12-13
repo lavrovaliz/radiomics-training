@@ -1,5 +1,4 @@
 site_name: PM-Toolbox
-site_url: https://example.com/
 nav:
   - Home: index.md
   - About: about.md
