@@ -8,7 +8,7 @@
 
 ## Contributing
 
-##Authors and citation
+## Authors and citation
 
 ## License
 
