@@ -2,6 +2,8 @@
 
 ## Est hanc parte canum dixit
 
+###lll
+
 Lorem markdownum esse. Totos molle sanguine classis adeunt tolerare sordida
 tellus patitur nomina contigit Parnasia expertus capillos. Conciderant arvaque
 patefecit laesum et altoque dixit oculosque, ingens ossa, sumit. Illa levius es
@@ -18,7 +20,7 @@ dicar intus dolentes inquit, manes.
             domain_optical(onlineDslam, heuristicOcrMatrix)),
             linuxConfiguration.wildcard(cpm, networkingUrlRfid,
             columnCardCopy))) {
-        debugger.bookmarkNat = 25;
+
         bios = zebibyte + edi;
     }
 
@@ -40,10 +42,6 @@ perque *libratum hostis* bucera hunc.
 
 *Quamquam* quamvis duro parvae ex heu poteras, verba iunxit me feratis excipit,
 est fatalem. Aut nec, carinis in mens fallaces: metu nulla remansit repente
-squamigeris plura *mitior*.
-
-*Si* despectus coniunx. *Haud sed una* dixi: magna caeruleam subit. Gemino
-generis questus foedera; graia pudet veris; pectoraque num pestem, redolentia!
-Rura Charybdis oleaster.
+squamigeris plura *mitior*
 
 XXX
