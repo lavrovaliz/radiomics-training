@@ -1,5 +1,7 @@
 # Welcome to PM-Toolbox
 
+[![Documentation Status](https://readthedocs.org/projects/radiomics-training/badge/?version=latest)](https://radiomics-training.readthedocs.io/en/latest/?badge=latest)
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
