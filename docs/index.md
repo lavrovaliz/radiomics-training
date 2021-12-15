@@ -1,7 +1,23 @@
-# Welcome to PM-Toolbox documentation!
+# Welcome to pmToolbox documentation!
+The pmToolbox (Precision Medicine Toolbox) is an open-source python package for medical imaging data 
+preparation for data science tasks. 
+This package is aimed to provide a tool to curate the imaging data 
+and to perform exploratory feature analysis.  
 
+Currently, the toolbox has the following functionality:  
+* **Conversion of DICOM to nrrd.** This function allows for the conversion of DICOM (CT or MR) dataset into volume (nrrd format) dataset. 2D data is temporarily not supported.  
+* **Unrolling nrrd images & roi masks into jpeg slices.** This function could be used for a quick check of the converted images or any existing nrrd/mha dataset. It will generate the jpeg images for each ROI slice.  
+* **Extracting of radiomics features.** Feature extraction procedure using pyradiomics to obtain the radiomics features for nrrd/mha dataset.  
+* **Basic analysis of radiomics features.** Export to excel file of features basic statistics and statistical tests values and visualization (in .html report) of:  
+  * features values distributions in binary classes,
+  * features mutual correlation (Spearman) matrix,
+  * p-values (Bonferroni corrected) for Mann-Whitney test for features mean values in groups,
+  * univariate ROC-curves for each feature,
+  * volumetric analysis: volume-based precision-recall curve + features correlation with volume.
 ## Code and documentation
-
+The pmToolbox is an open-source package, the source code is available [online](https://github.com/precision-medicine-um/precision_medicine_toolbox). 
+The online documentation is available [here](http://precision_medicine_toolbox.readthedocs.io/). 
+The functionality of the toolbox is illustrated in the tutorial [notebooks]().
 ## Installation
 
 ## Quick start

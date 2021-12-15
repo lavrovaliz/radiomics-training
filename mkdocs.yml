@@ -1,4 +1,4 @@
-site_name: PM-Toolbox
+site_name: pmToolbox
 nav:
   - Home: index.md
   - API: api.md
