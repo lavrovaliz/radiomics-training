@@ -1,5 +1,5 @@
-# Welcome to pmToolbox documentation!
-The pmToolbox (Precision Medicine Toolbox) is an open-source python package for medical imaging data 
+# Welcome to pm_toolbox documentation!
+The pm_toolbox (precision medicine toolbox) is an open-source python package for medical imaging data 
 preparation for data science tasks. 
 This package is aimed to provide a tool to curate the imaging data 
 and to perform exploratory feature analysis.  
@@ -19,9 +19,17 @@ The pmToolbox is an open-source package, the source code is available [online](h
 The online documentation is available [here](http://precision_medicine_toolbox.readthedocs.io/). 
 The functionality of the toolbox is illustrated in the tutorial [notebooks]().
 ## Installation
-
+Before use install the dependencies from the requirements file:  
+```
+pip install -r requirements.txt   
+```  
+Then clone repository with the git client of your preference.
 ## Quick start
-
+The following example illustrates how to initialize an object of a dataset class:  
+```python
+import os, sys
+sys.path.append("path to pm_toolbox directory")
+```
 ## Contributing
 
 ## Authors and citation

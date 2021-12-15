@@ -1,5 +1,5 @@
-# pmToolbox tutorials
-pmToolbox functionality is illustrated in the following notebooks.
+# pm_toolbox tutorials
+pm_toolbox functionality is illustrated in the following notebooks.
 ## Imaging module
 How to convert DICOM into NRRD, check ROI segmentation, 
 extract the radiomic features, and explore the imaging parameters.
