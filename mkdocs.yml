@@ -3,7 +3,12 @@ nav:
   - Home: index.md
   - Reference: reference.md
   - Tutorials: tutorials.md
+  - Code Reference:
+    - Features module: features_set.md
 theme: readthedocs
 docs_dir: 'docs'
 site_dir: 'site'
+plugins:
+  - search
+  - mkdocstrings
 copyright: Copyright &copy; 2021 - 2021, Sergey Primakov & Lisa Lavrova.

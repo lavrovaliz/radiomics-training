@@ -6,5 +6,3 @@ Here you can find the full reference of the code.
 
 
 ## Preliminary features analysis
-
-
