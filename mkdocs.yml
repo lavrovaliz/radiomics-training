@@ -1,7 +1,7 @@
 site_name: pm_toolbox
 nav:
   - Home: index.md
-  - API: api.md
+  - Reference: reference.md
   - Tutorials: tutorials.md
 theme: readthedocs
 docs_dir: 'docs'
