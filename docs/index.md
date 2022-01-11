@@ -1,4 +1,7 @@
-# Welcome to pm_toolbox documentation!
+# Welcome to *pm_toolbox* documentation!
+[![License](https://img.shields.io/github/license/precision-medicine-um/precision_medicine_toolbox)](https://opensource.org/licenses/BSD-3-Clause)
+[![Documentation Status](https://readthedocs.org/projects/radiomics-training/badge/?version=latest)](https://radiomics-training.readthedocs.io/en/latest/?badge=latest)
+
 The *pm_toolbox* (precision_medicine_toolbox) is an open-source python package for medical imaging data 
 preparation for data science tasks. 
 This package is aimed to provide a tool to curate the imaging data 
@@ -15,10 +18,21 @@ Currently, the toolbox has the following functionality:
     * p-values (Bonferroni corrected) for Mann-Whitney test for features mean values in groups,
     * univariate ROC-curves for each feature,
     * volumetric analysis: volume-based precision-recall curve + features correlation with volume.
+
+**Warning!** Not intended for clinical use!
+
 ## Code and documentation
 The *pm_toolbox* is an open-source package, the source code is available [online](https://github.com/precision-medicine-um/precision_medicine_toolbox). 
 The online documentation is available [here](http://precision_medicine_toolbox.readthedocs.io/). 
 The functionality of the toolbox is illustrated in the tutorial [notebooks]().
+## 3rd-party packages used in the PM_toolbox
+Our package is using the existing quality tools for the key steps:
+
+* pydicom (DICOM I/O),
+* SimpleITK (image I/O and pre-processing),
+* pyradiomics (features extraction).
+
+See [requirements.txt](https://github.com/precision-medicine-um/precision_medicine_toolbox/blob/master/requirements.txt) for more.
 ## Installation
 Before use, install the dependencies from the requirements file:  
 ```
@@ -52,6 +66,13 @@ Initial and main developers:
 
 * Sergey Primakov [@primakov](https://github.com/primakov)
 * Lisa Lavrova [@lavrovaliz](https://github.com/lavrovaliz)
-## License
 
-## Acknowledgements
+Also you can see the list of the [contributors](https://github.com/precision-medicine-um/precision_medicine_toolbox/graphs/contributors).
+## License
+This project is licensed under the BSD-3-Clause License 
+(see the [LICENSE](https://github.com/precision-medicine-um/precision_medicine_toolbox/blob/master/LICENSE) for the details).
+## Acknowledgements  
+The Precision Medicine department colleagues for their support and feedback.  
+PyRadiomics for a reliable open-source tool for features extraction.  
+Hugo Aerts et al. for the Lung1 dataset we used to demonstrate our functionality 
+and TCIA for the publically available data.
